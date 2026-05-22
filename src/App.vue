@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import PanellHora from './components/PanellHora.vue'
-import PanellTemps from './components/PanellTemps.vue'
-import PanellNotes from './components/PanellNotes.vue'
+import PanellHora from './components/PanellHora.vue';
+import PanellTemps from './components/PanellTemps.vue';
+import PanellNotes from './components/PanellNotes.vue';
 </script>
 
 <template>
@@ -24,9 +24,11 @@ body {
   border: 2px solid black;
   border-radius: 0.5rem;
   text-align: center;
+  max-width: max-content;
+  min-width: min-content;
 }
 .card {
-  padding: 2rem;
+  padding: 1rem;
   margin: 1px;
   background: lightyellow;
   color: black;
