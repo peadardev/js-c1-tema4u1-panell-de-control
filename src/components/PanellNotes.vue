@@ -28,12 +28,9 @@
 
 <script setup lang="ts">
 import { ref } from 'vue';
+import type { Note } from '@/models/note';
+
 const textNota = ref<string>('');
-export interface Note {
-  id: number;
-  text: string;
-  date: string;
-}
 const llistaNotes = ref<Note[]>([]);
 
 function createNote() {
